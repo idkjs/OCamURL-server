@@ -1,0 +1,5 @@
+(executable
+ (modes byte exe)
+ (name main)
+ (public_name RTMDotTV)
+ (libraries lib core cohttp.lwt graphql-lwt yojson mariadb))
